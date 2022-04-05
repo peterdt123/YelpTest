@@ -8,8 +8,8 @@ import requests
 try:
     import flask
 except ImportError:
-    from pip._internal import main as pip
-    pip(['install', '--user', 'flask'])
+    import pip
+    pip.main(['install', '--user', 'flask'])
     import flask
 from flask import Flask, render_template, redirect, url_for
 from flask import request, jsonify
