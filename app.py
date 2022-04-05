@@ -16,7 +16,7 @@ from flask import request, jsonify
 
 app = Flask(__name__)
 
-PORT = 80
+PORT = 8080
 
 yelpAuthUrl = "https://api.yelp.com/oauth2/token"
 credFile = "static/assets/docs/credentials"
