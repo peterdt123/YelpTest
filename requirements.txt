@@ -39,9 +39,7 @@ Replace the Google and Yelp credentials in this file (the parts between angle
 brackets):
 
 {
-     "GOOGLE_MAPS_API_KEY":AIzaSyDo09_nlgvBuQ0WMh1cTwRgjhSBpuOFH8I
-   , "YELP_CLIENT_ID":OWbmMer-XhQl-XYlYv039A
-   , "YELP_CLIENT_SECRET":Wl30ddHGeZoxHBSaeOY6RvU54J74knCky3ln5bZuBecYRVuGj73jUyLvTjh6XcbwR7k2xBEU56OmSx5vPaWKX8mhSbmtzuu87TWjlgfdkM0UFRm6RbOS8BrRsb9LYnYx
+
 }
 
 Save the file when done editing.
