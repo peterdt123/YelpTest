@@ -54,4 +54,4 @@ def main():
 
 if __name__ == '__main__':
     app.debug = True
-    app.run(host='127.0.0.1', port=PORT)
+    app.run(host='54.202.106.231', port=PORT)
